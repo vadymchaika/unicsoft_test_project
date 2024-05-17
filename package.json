@@ -4,7 +4,9 @@
   "main": "index.js",
   "scripts": {
     "test": "npx playwright test",
-    "test_headed": "npx playwright test --headed"
+    "test_headed": "npx playwright test --headed",
+    "play-report": "npx playwright show-report",
+    "reinstall": "npx playwright install"
   },
   "keywords": [],
   "author": "",
